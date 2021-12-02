@@ -1,0 +1,13 @@
+public class Diff_Sum_Square {
+	public static void main(String[] args){
+    int sum=0, sumsqr=0, diff =0;
+	for(int i=0;i<=100;i++)
+	{
+		sumsqr+=(i*i);
+		sum+=i;	
+	}
+	sum*=sum;
+	diff=sum-sumsqr;
+	System.out.println(diff);
+	}
+}
